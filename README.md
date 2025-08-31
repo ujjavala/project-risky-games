@@ -45,6 +45,12 @@ npm start
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the application
 
+## 🌐 Live Demo
+
+**GitHub Pages**: https://ujjavala.github.io/risky-games
+
+The application is automatically deployed to GitHub Pages on every push to the main branch.
+
 ## 🏗️ Architecture
 
 ### Tech Stack
@@ -96,9 +102,26 @@ src/
 
 ## 🎮 How to Use
 
-### Navigation
+### 🧭 App Navigation Guide
+
+**Main Menu Structure:**
+- **🏠 Dashboard**: Main landing page with overview metrics and progress tracking
+- **🎭 Scenarios**: Interactive risk management game scenarios
+- **📊 Analytics**: Advanced analytics and visualizations
+- **🧠 AI Assistant (Harry)**: Always available via the brain icon in bottom-left corner
+
+**Getting Started Flow:**
+1. **Start at Dashboard**: Overview of your learning journey and current stats
+2. **Browse Scenarios**: Click "Play Scenarios" or navigate to scenarios section
+3. **Select a Scenario**: Choose from available risk management scenarios
+4. **Interactive Gameplay**: Make decisions, get AI guidance, earn points
+5. **Review Progress**: Return to Dashboard to see improvements
+
+### Navigation Features
 - **Dashboard**: View your learning progress, completed scenarios, and skill metrics
 - **Scenarios**: Browse and play interactive risk management scenarios
+- **Real-time AI Help**: Click the brain icon anytime for contextual assistance
+- **Progress Tracking**: Persistent progress across all app sections
 
 ### Playing Scenarios
 1. Select a scenario from the scenarios page

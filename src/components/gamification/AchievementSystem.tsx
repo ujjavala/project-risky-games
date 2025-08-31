@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import { Trophy, Star, Award, Target, Zap, Shield, Brain, TrendingUp } from 'lucide-react';
 import { useAXiLE } from '../../hooks/useAXiLe';
 
@@ -45,7 +45,7 @@ const AchievementCard = styled.div<{ isUnlocked: boolean; rarity: string }>`
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
-  animation: ${props => props.isUnlocked ? celebrationAnimation : 'none'} 0.6s ease;
+  animation: ${props => props.isUnlocked ? css`${celebrationAnimation} 0.6s ease` : 'none'};
 
   &:hover {
     transform: translateY(-4px);
@@ -62,7 +62,7 @@ const AchievementCard = styled.div<{ isUnlocked: boolean; rarity: string }>`
     background: ${props => props.isUnlocked ? 
       'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)' : 'none'};
     background-size: 20px 20px;
-    animation: ${sparkleAnimation} 2s ease-in-out infinite;
+    animation: ${css`${sparkleAnimation} 2s ease-in-out infinite`};
     pointer-events: none;
   }
 `;
@@ -184,6 +184,16 @@ const StatValue = styled.div`
   font-weight: bold;
   color: #667eea;
   margin-bottom: 0.5rem;
+`;
+
+const RecentUnlockNotification = styled.div`
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+  text-align: center;
+  animation: ${css`${celebrationAnimation} 0.6s ease`};
 `;
 
 interface Achievement {
@@ -368,20 +378,12 @@ const AchievementSystem: React.FC = () => {
       </StatsPanel>
 
       {recentUnlock && (
-        <div style={{
-          background: 'linear-gradient(135deg, #ffd700 0%, #ffed4e 100%)',
-          color: 'white',
-          padding: '1rem',
-          borderRadius: '12px',
-          margin: '1rem 0',
-          textAlign: 'center',
-          animation: `${celebrationAnimation} 0.6s ease`
-        }}>
+        <RecentUnlockNotification>
           <Trophy size={32} style={{ marginBottom: '0.5rem' }} />
           <h3>Achievement Unlocked!</h3>
           <p>{recentUnlock.title}: {recentUnlock.description}</p>
           <p>+{recentUnlock.rewards.points} points earned!</p>
-        </div>
+        </RecentUnlockNotification>
       )}
 
       <BadgeShowcase>
