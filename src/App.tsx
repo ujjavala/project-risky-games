@@ -153,7 +153,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Router>
+      <Router basename="/project-risky-games">
         <AXiLEProvider>
           <AppContent />
         </AXiLEProvider>
