@@ -337,3 +337,8 @@ This project is a demonstration/prototype for educational purposes.
 **Developed with**: React + TypeScript + AXiLe® Framework  
 **AI Assistant**: Harry - Your Risk Management Mentor  
 **Learning Approach**: Gamified, Interactive, Evidence-Based
+
+
+**Datasets used**
+
+https://osf.io/q8up6/files/osfstorage?view_only=2ffbe259c7644766b6a6706e23c413fa
