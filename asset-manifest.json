@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/risky-games/static/css/main.e6c13ad2.css",
-    "main.js": "/risky-games/static/js/main.ad660f13.js",
-    "static/js/453.0fe0cc96.chunk.js": "/risky-games/static/js/453.0fe0cc96.chunk.js",
-    "index.html": "/risky-games/index.html",
-    "main.e6c13ad2.css.map": "/risky-games/static/css/main.e6c13ad2.css.map",
-    "main.ad660f13.js.map": "/risky-games/static/js/main.ad660f13.js.map",
-    "453.0fe0cc96.chunk.js.map": "/risky-games/static/js/453.0fe0cc96.chunk.js.map"
+    "main.css": "/project-risky-games/static/css/main.e6c13ad2.css",
+    "main.js": "/project-risky-games/static/js/main.f31ba48b.js",
+    "static/js/453.0fe0cc96.chunk.js": "/project-risky-games/static/js/453.0fe0cc96.chunk.js",
+    "index.html": "/project-risky-games/index.html",
+    "main.e6c13ad2.css.map": "/project-risky-games/static/css/main.e6c13ad2.css.map",
+    "main.f31ba48b.js.map": "/project-risky-games/static/js/main.f31ba48b.js.map",
+    "453.0fe0cc96.chunk.js.map": "/project-risky-games/static/js/453.0fe0cc96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ad660f13.js"
+    "static/js/main.f31ba48b.js"
   ]
 }
