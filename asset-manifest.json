@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/project-risky-games/static/css/main.e6c13ad2.css",
-    "main.js": "/project-risky-games/static/js/main.f31ba48b.js",
-    "static/js/453.0fe0cc96.chunk.js": "/project-risky-games/static/js/453.0fe0cc96.chunk.js",
-    "index.html": "/project-risky-games/index.html",
-    "main.e6c13ad2.css.map": "/project-risky-games/static/css/main.e6c13ad2.css.map",
-    "main.f31ba48b.js.map": "/project-risky-games/static/js/main.f31ba48b.js.map",
-    "453.0fe0cc96.chunk.js.map": "/project-risky-games/static/js/453.0fe0cc96.chunk.js.map"
+    "main.css": "/project-risky-games/static/css/main.4efb37a3.css",
+    "main.js": "/project-risky-games/static/js/main.a0d9e0c8.js",
+    "static/js/206.4f469025.chunk.js": "/project-risky-games/static/js/206.4f469025.chunk.js",
+    "index.html": "/project-risky-games/index.html"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.f31ba48b.js"
+    "static/css/main.4efb37a3.css",
+    "static/js/main.a0d9e0c8.js"
   ]
 }
