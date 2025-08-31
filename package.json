@@ -1,7 +1,7 @@
 {
   "name": "risky-games",
   "version": "0.1.0",
-  "homepage": "https://ujjavala.github.io/risky-games",
+  "homepage": "https://ujjavala.github.io/project-risky-games",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
